@@ -1,0 +1,119 @@
+/* Name:Madison Klapinsky
+*  Date: 5/29/18 
+*  Final Project- Innovative Women */
+
+
+/*The universal selector applies to the entire web page */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: white;
+    margin: 15px auto;
+    border: 1px solid black;
+}
+
+h1 {
+    padding: 10px;
+    text-decoration: underline; 
+}
+
+/* the border-bottom property only puts a border on the bottom of the header instead of a border around the entire header*/
+header {
+    border-bottom: 4px solid #F1C40F;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1em; 
+    background-color: #F5CBA7;
+}
+
+#sidebarA {
+    width: 20%;
+    float: left;
+    border-right: 4px solid #F1C40F;
+    background-color: #808080;
+    text-align: center;
+}
+
+.img1 {
+	height: 10em; 
+	width: 7em;
+	border: 2px solid #F1C40F;
+}
+/* px are only used for the box model */ 
+
+main {
+    width: 49.44%;
+    float: left;
+    background-color: #808080;
+    font-size: 1.2em;
+}
+
+.bio {
+	text-align: center;
+}
+
+p {
+	padding: 10px;
+}
+
+#sidebarA, main, #sidebarB{
+	height:900px;
+}
+
+/* the # represents the id selector */
+#sidebarB {
+    width: 30%;
+    float:right;
+    border-left: 4px solid #F1C40F;
+    background-color: #808080;
+    text-align: center;
+}
+
+.img2 {
+	height: 12em; 
+	width: 9em;
+	border: 2px solid #F1C40F;
+	margin: 10px;
+	float: left;
+}
+
+.img3 {
+	height: 10em;
+	width: 14em;
+	float: left;
+	clear: right;
+	border: 2px solid #F1C40F;
+	margin: 10px;
+}
+
+/* all images have a border */ 
+.img4 {
+	height: 12em;
+	width: 11em;
+	border: 2px solid #F1C40F;
+	margin: 12px;
+	float: left;
+}
+
+.img5 {
+	height: 12em;
+	width: 11em;
+	border: 2px solid #F1C40F;
+	margin: 10px;
+	float: left;
+}
+
+/* the clear property stops the footer from floating next to the main section */
+footer {
+    clear: both;
+    border-top: 4px solid #F1C40F;
+    background-color: #F5CBA7;
+}
+
+ul {
+	padding: 10px;
+}
